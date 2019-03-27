@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 //const databaseURI = 'mongodb://localhost:27017/project1';
 
 //webowo
-const databaseURI = myDatabase; //"mongodb+srv://Karol:12345@cluster0-dv3mc.mongodb.net/test?retryWrites=true";
+const databaseURI = myDatabase;
 
 const UserSchema = require('./helpers/user.schema');
 
