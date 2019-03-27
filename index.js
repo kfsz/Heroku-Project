@@ -1,6 +1,6 @@
 const express = require('express');
 const PORT = process.env.PORT || 5000;
-
+const myDatabase = process.env.MONGO_DATABASE;
 const app = express();
 
 const mongoose = require('mongoose');
@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 //const databaseURI = 'mongodb://localhost:27017/project1';
 
 //webowo
-const databaseURI = "mongodb+srv://Karol:12345@cluster0-dv3mc.mongodb.net/test?retryWrites=true";
+const databaseURI = myDatabase; //"mongodb+srv://Karol:12345@cluster0-dv3mc.mongodb.net/test?retryWrites=true";
 
 const UserSchema = require('./helpers/user.schema');
 
