@@ -1,13 +1,11 @@
 const express = require('express');
 const PORT = process.env.PORT || 5000;
+// well, not mine - but whatever
 const myDatabase = process.env.MONGO_DATABASE;
 const app = express();
 
 const mongoose = require('mongoose');
-//lokalna
-//const databaseURI = 'mongodb://localhost:27017/project1';
 
-//webowo
 const databaseURI = myDatabase;
 
 const UserSchema = require('./helpers/user.schema');
