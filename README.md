@@ -1,3 +1,5 @@
+doesn't work atm, as karol changed password to his database :<
+
 # node-js-getting-started
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
